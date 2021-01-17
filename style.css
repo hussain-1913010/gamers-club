@@ -1,0 +1,292 @@
+*{margin:0; padding:0;}
+
+.fullwrap{
+	width:100%;
+}
+
+#header{
+	background:#AFAFAF;
+	height:150px;
+		border-left:2px solid maroon;
+	border-right:2px solid maroon;
+
+}
+.headerbg{
+	background:#AFAFAF;
+  border-top:5px solid maroon;
+}
+#header img{
+	float:left;
+	padding:20px;
+	width:100px;
+	height:100px;
+}
+#header h1{
+	padding:15px;
+	font-family:rog fonts;
+	font-weight:bold;
+	font-size:75px;
+}
+.para{
+	height:70px;
+	background:black;
+		border-left:2px solid maroon;
+	border-right:2px solid maroon;
+	
+}
+.parabg{
+	background:black;
+	border-top:5px solid maroon;
+}
+.para p{
+	padding:10px;
+	color:white;
+	font-family:Brush King;
+	font-size:20px;
+	text-align:center;
+}
+#nav{
+	height:48px;
+	background:#AFAFAF;
+		border-left:2px solid maroon;
+	border-right:2px solid maroon;
+}
+.navbg{
+	background:#AFAFAF;
+	border-top:5px solid maroon;
+	border-bottom:5px solid maroon;
+
+}
+#nav ul{
+	background:#AFAFAF;
+	list-style-type:none;
+	z-index:999;
+	
+}
+#nav ul li{
+	float:left;
+	border-right:2px solid maroon;
+
+}
+#nav ul li img{
+	padding:5px;
+	width:32px;
+	height:32px;
+}
+#nav ul li a{
+	font-family:debrosee;
+	font-size:45px;
+	padding-left:10px;
+	color:black;
+	text-decoration:none;
+	display:block;
+}
+#nav ul li a:hover{
+	background:black;
+	color:white;
+	transition:0.3s all ease;
+}
+
+#nav ul li{
+	position:relative;
+}
+#nav ul li:last-child{
+	border-right:none;
+}
+#nav ul li ul{
+	position:absolute;
+	top:-99999999px;
+
+}
+#nav ul li:hover ul{
+	top:48px;
+	
+}
+#nav ul li ul li{
+	float:none;
+	width:250px;
+	border-bottom:2px solid maroon;
+	border-left:2px solid maroon;
+	
+}
+#nav ul li ul li:last-child{
+	border-right:2px solid maroon;
+}
+#nav ul li ul li:first-child{
+	border-right:2px solid maroon;
+	border-top:2px solid maroon;
+}
+
+#sliderwraper{
+	border-left:2px solid maroon;
+	border-right:2px solid maroon;
+	z-index:15;
+}
+.sectionbg{
+	background:#222222;
+}
+#contentwraper{
+	overflow:hidden;
+	background:#ddd;
+		border-left:2px solid maroon;
+	border-right:2px solid maroon;
+}
+.contentwraperbg{
+	background:#ddd;
+}
+#imgwrap{
+	
+}
+#imgwrap img{
+	width:60px;
+	height:60px;
+	float:left;
+}
+#imgwrap p{
+	font-family:georgia;
+	padding-left:75px;
+	
+}
+
+
+
+
+
+
+
+
+#company{
+	overflow:hidden;
+	background:#ddd;
+		border-left:2px solid maroon;
+	border-right:2px solid maroon;
+
+}
+
+.companybg{
+	background:#ddd;
+}
+#forpara{
+	width:550px;
+	margin:0 auto;
+	margin-top:30px;
+	background:#AFAFAF;
+	border:2px solid maroon;
+	border-radius:5px;
+}
+#forpara p{
+	font-family:Cakar Monyet;
+	font-size:25px;
+	text-align:center;
+}
+
+
+
+
+
+#contentarticle{
+	float:left;
+	width:606px;
+	height:180px;
+	margin-top:20px;
+	margin-right:30px;
+	margin-left:0px;
+	padding-left:10px;
+	padding-right:10px;
+	border-bottom:2px solid maroon;
+}
+
+
+#contentarticle h2{
+	padding:5px;
+	font-family:Cully Demo;
+	font-weight:bold;
+	font-size:30px;
+}
+
+
+#sideberaside{
+	width:300px;
+	height:180px;
+	float:left;
+	margin-top:20px;
+	margin-bottom:20px;
+	border-bottom:2px solid maroon;
+}
+
+
+#aside{
+	width:250px;
+	height:40px;
+	margin:0 auto;
+	margin-top:8px;
+	background:#AFAFAF;
+	border-radius:5px;
+	border:2px solid black;
+}
+#aside h2{
+	font-family:Cully Demo;
+	padding-left:10px;
+}
+#sideberaside ul{
+	list-style-type:square;
+	padding-top:10px;
+	padding-left:40px;
+	padding-bottom:10px;
+}
+#sideberasideul li{
+	padding:10px;
+}
+#sideberaside ul li a{
+	display:block;
+	padding:5px;
+	text-decoration:none;
+	font-family:georgia;
+	
+}
+
+
+
+
+
+#footer{
+	height:30px;
+	background:#AFAFAF;
+	color:black;
+		border-left:2px solid maroon;
+	border-right:2px solid maroon;
+			
+}
+.footerbg{
+	background:#AFAFAF;
+border-top:2px solid maroon;
+	border-bottom:2px solid maroon;
+}
+#footer p{
+	padding:5px;
+	text-align:center;
+	font-family:time new roman;
+	
+}
+
+
+#socialsite{
+    list-style-type:none;
+	padding:10px;
+	position:fixed;
+	right:0;
+	top:30%;
+	background:#b5b0b0;
+	border-radius:65px 65px 65px 65px;
+	z-index:35;
+
+}
+#socialsite li{
+    float:none;
+	
+}
+#socialsite li img{
+	width:64px;
+	height:64px;
+}
+
